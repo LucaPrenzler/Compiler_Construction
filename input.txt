@@ -1,0 +1,74 @@
+halt;
+proc myprocedure
+{
+
+halt;
+
+
+proc myprocedure2
+{
+myprocedure2;
+halt
+}
+}
+
+proc myprocedure3
+{
+halt;
+myprocedure2;
+
+proc myprocedure2
+{
+halt;
+proc myprocedure4
+{
+halt;
+proc myprocedure5
+{
+myprocedure5;
+halt
+}
+
+}
+}
+}
+
+proc myprocedure6
+{
+halt;
+proc myprocedure7
+{
+halt;
+myprocedure2;
+
+proc myprocedure2
+{
+halt;
+proc myprocedure4
+{
+halt;
+proc myprocedure5
+{
+myprocedure5;
+halt;
+proc myprocedure12
+{
+halt;
+proc myprocedure20
+{
+
+halt;
+proc myprocedure21
+{
+myprocedure21;
+halt
+}
+
+}
+}
+}
+
+}
+}
+}
+}
